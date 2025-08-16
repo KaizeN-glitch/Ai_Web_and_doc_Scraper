@@ -6,22 +6,26 @@ git clone https://github.com/your-username/ai-web-doc-scraper.git
 cd ai-web-doc-scraper
 ```
 Create a virtual environment
+```bash
 python -m venv ai
+```
 
 3️⃣ Activate the virtual environment
 
 Windows (PowerShell)
-
+```bash
 .\ai\Scripts\activate
-
+```
 
 Mac/Linux
-
+```bash
 source ai/bin/activate
+```
 
 4️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 📦 Requirements
 
 Your requirements.txt should include:
@@ -38,9 +42,10 @@ ollama
 ▶️ Running the App
 
 Once everything is installed, run:
+```bash
 
 streamlit run main.py
-
+```
 
 This will launch the app in your browser at:
 👉 http://localhost:8501
